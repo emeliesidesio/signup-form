@@ -40,7 +40,8 @@ input[type=text] {
 }
 
 input[type=text]:focus {
-  box-shadow: 4px 3px 15px 3px pink;
+  border-color: pink;
+  box-shadow: 0 0 10px 3px pink;
   border-style: double;
   border-color: white;
 }
@@ -54,7 +55,8 @@ input[type=email] {
 }
 
 input[type=email]:focus {
-  box-shadow: 4px 3px 15px 3px pink;
+  border-color: pink;
+  box-shadow: 0 0 10px 3px pink;
   border-style: double;
   border-color: white;
 }
@@ -68,7 +70,8 @@ input[type=password] {
 }
 
 input[type=password]:focus {
-  box-shadow: 4px 3px 15px 3px pink;
+  border-color: pink;
+  box-shadow: 0 0 10px 3px pink;
   border-style: double;
   border-color: white;
 }
