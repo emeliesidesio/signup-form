@@ -63,7 +63,7 @@ input[type=password] {
 }
 
 .inner {
-  padding: 3vw 5vw 2vw 5vw;
+  padding: 3vw 7vw 2vw 7vw;
 }
 
 button {
@@ -89,9 +89,73 @@ h1 {
 }
 
 h2 {
-  font-size: 0.9vw;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  text-align: left;
-  padding: 0.7vw 6.5vw 0.7vw 6.5vw;
+  font-size: 1.3vw;
+  /*letter-spacing: 2px;*/
+  text-align: center;
+  font-weight: normal;
+  /*padding: 0.7vw 6.5vw 0.7vw 6.5vw;*/
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+  .container {
+    width: 80%;
+    height: 112vw;
+    margin-top: 75px;
+    }
+  .inner {
+    padding: 9vw 9vw 4vw 9vw;
+    }
+  h1 {
+    font-size: 7vw;
+    }
+  h2 {
+    font-size: 2.5vw;
+    }
+  .label {
+    padding: 0.7vw 6.5vw 0.7vw 6.5vw;
+    font-size: 1.5vw;
+    letter-spacing: 3px;
+    }
+  button {
+    border-radius: 7px;
+    border: 7px solid pink;
+    padding: 7px 12px;
+    font-size: 11pt;
+    letter-spacing: 2px;
+    }
+  .button {
+    margin-top: 60px;
+    }
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 90%;
+    height: 165vw;
+    margin-top: 20px;
+    }
+  .inner {
+    padding: 4vw 8vw 4vw 8vw;
+    }
+  h1 {
+    font-size: 9vw;
+    }
+  h2 {
+    font-size: 3.5vw;
+  }
+  .label {
+    padding: 0.7vw 6.5vw 0.7vw 6.5vw;
+    font-size: 2.8vw;
+    letter-spacing: 3px;
+    }
+  button {
+    border-radius: 6px;
+    border: 6px solid pink;
+    padding: 6px 11px;
+    font-size: 10pt;
+    letter-spacing: 1.8px;
+    }
+  .button {
+    margin-top: 35px;
+    }
 }
