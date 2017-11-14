@@ -88,20 +88,31 @@ input[type=password]:focus {
 }
 
 button {
-  border-radius: 5px;
+  border-radius: 7px;
   background: pink;
   color: white;
-  border: 4px solid pink;
-  padding: 5px 10px;
+  border: 0px;
+  padding: 8px 13px;
   font-size: 9pt;
   text-transform: uppercase;
   letter-spacing: 1.5px;
   font-weight: bold;
+  outline: none;
 }
 
 .button {
   text-align: center;
   margin-top: 40px;
+}
+
+.button:active {
+	transform: translate(0px,5px);
+  -webkit-transform: translate(0px,5px);
+}
+
+.animate {
+  transition: all 0.1s;
+	-webkit-transition: all 0.1s;
 }
 
 h1 {
