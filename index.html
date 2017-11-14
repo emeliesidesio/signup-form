@@ -8,68 +8,67 @@
   </head>
   <body>
 
-    <form action="http://httpbin.org/anything" method="POST">
+      <form action="http://httpbin.org/anything" method="POST">
 
-      <div class="form">
+        <div class="form">
 
-        <div class="container">
+          <div class="container">
 
-          <div class="inner">
-            <h1>Attend the coolest party ever!</h1>
-            <h2>Fill in the form bla bla bla. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</h2>
+            <div class="inner">
+              <h1>Attend the coolest party ever!</h1>
+              <h2>Fill in the form bla bla bla. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</h2>
+            </div>
+
+            <div class="label">
+              <label for="name">Name</label>
+              <input id="name" type="text" name="name" required>
+            </div>
+
+            <div class="label">
+              <label for="email">Email</label>
+              <input id="email" type="email" name="email" required>
+            </div>
+
+            <div class="label">
+              <label for="password">Password</label>
+              <input id="password" type="password" name="password" required>
+            </div>
+
+            <div class="label">
+              <p>Gender</p>
+              <label class="radio">
+                <input type="radio" name="gender">Female
+              </label>
+              <label class="radio">
+                <input type="radio" name="gender">Male
+              </label>
+              <label class="radio">
+                <input type="radio" name="gender">Unicorn
+              </label>
+            </div>
+
+            <div class="label">
+              <p>Profession</p>
+              <label class="checkbox">
+                <input type="checkbox" name="profession">Designer
+              </label>
+              <label class="checkbox">
+                <input type="checkbox" name="profession">Web developer
+              </label>
+              <label class="checkbox">
+                <input type="checkbox" name="profession">Unicorn
+              </label>
+            </div>
+
+            <div class="button">
+              <button>Attend!</button>
+            </div>
+
           </div>
-
-          <div class="label">
-            <label for="name">Name</label>
-            <input id="name" type="text" name="name" required>
-          </div>
-
-          <div class="label">
-            <label for="email">Email</label>
-            <input id="email" type="email" name="email" required>
-          </div>
-
-          <div class="label">
-            <label for="password">Password</label>
-            <input id="password" type="password" name="password" required>
-          </div>
-
-          <div class="label">
-            <p>Gender</p>
-            <label class="radio">
-              <input type="radio" name="gender">Female
-            </label>
-            <label class="radio">
-              <input type="radio" name="gender">Male
-            </label>
-            <label class="radio">
-              <input type="radio" name="gender">Unicorn
-            </label>
-          </div>
-
-          <div class="label">
-            <p>Profession</p>
-            <label class="checkbox">
-              <input type="checkbox" name="profession">Designer
-            </label>
-            <label class="checkbox">
-              <input type="checkbox" name="profession">Web developer
-            </label>
-            <label class="checkbox">
-              <input type="checkbox" name="profession">Unicorn
-            </label>
-          </div>
-
-          <div class="button">
-            <button>Attend!</button>
-          </div>
-
 
         </div>
 
-      </div>
-
-    </form>
+      </form>
 
   </body>
 </html>

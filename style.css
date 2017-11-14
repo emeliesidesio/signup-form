@@ -39,6 +39,12 @@ input[type=text] {
   outline: none;
 }
 
+input[type=text]:focus {
+  box-shadow: 4px 3px 15px 3px pink;
+  border-style: double;
+  border-color: white;
+}
+
 input[type=email] {
   width: 100%;
   padding: 7px 10px;
@@ -47,12 +53,24 @@ input[type=email] {
   outline: none;
 }
 
+input[type=email]:focus {
+  box-shadow: 4px 3px 15px 3px pink;
+  border-style: double;
+  border-color: white;
+}
+
 input[type=password] {
   width: 100%;
   padding: 7px 10px;
   margin: 4px 0;
   box-sizing: border-box;
   outline: none;
+}
+
+input[type=password]:focus {
+  box-shadow: 4px 3px 15px 3px pink;
+  border-style: double;
+  border-color: white;
 }
 
 .radio, .checkbox {
@@ -90,10 +108,8 @@ h1 {
 
 h2 {
   font-size: 1.3vw;
-  /*letter-spacing: 2px;*/
   text-align: center;
   font-weight: normal;
-  /*padding: 0.7vw 6.5vw 0.7vw 6.5vw;*/
 }
 
 @media (min-width: 600px) and (max-width: 900px) {
