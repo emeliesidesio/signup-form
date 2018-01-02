@@ -22,7 +22,7 @@ body {
 
 .container {
   width: 40vw;
-  min-height: 50vw;
+  min-height: 45vw;
   background: white;
   font-family: sans-serif;
   text-align: center;
@@ -116,7 +116,7 @@ h1 {
   margin: 50px 60px 20px 60px;
 }
 
-@media (min-width: 650px) and (max-width: 950px) {
+@media (min-width: 650px) and (max-width: 900px) {
   .container {
     margin: 80px 100px 80px 100px;
     width: auto;
