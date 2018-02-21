@@ -4,16 +4,25 @@ body {
   background-repeat: no-repeat;
   margin: 0;
   padding: 0;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 4vw;
+  line-height: 1;
+  margin: 50px 60px 20px 60px;
 }
 
 .form {
   display: flex;
   justify-content: center;
+  margin-top: 35px;
 }
 
 .label {
   text-align: left;
-  padding: 0.7vw 5vw 0.7vw 5vw;
+  padding: 0 70px;
+  margin-bottom: 20px;
   font-size: 0.9vw;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -22,11 +31,9 @@ body {
 
 .container {
   width: 40vw;
-  min-height: 45vw;
   background: white;
   font-family: sans-serif;
   text-align: center;
-  margin-top: 1.5vw;
 }
 
 input[type=text] {
@@ -92,15 +99,12 @@ button {
   letter-spacing: 1.5px;
   font-weight: bold;
   outline: none;
-}
-
-.button {
   text-align: center;
-  margin-top: 2vw;
-  margin-bottom: 4vw;
+  margin-bottom: 40px;
+  margin-top: 20px;
 }
 
-.button:active {
+button:active {
 	transform: translate(0px,5px);
   -webkit-transform: translate(0px,5px);
 }
@@ -108,12 +112,6 @@ button {
 .animate {
   transition: all 0.1s;
 	-webkit-transition: all 0.1s;
-}
-
-h1 {
-  font-size: 4vw;
-  line-height: 1;
-  margin: 50px 60px 20px 60px;
 }
 
 @media (min-width: 650px) and (max-width: 900px) {
@@ -146,7 +144,7 @@ h1 {
 
 @media (max-width: 650px) {
   .container {
-    margin: 60px 30px 60px 30px;
+    margin: 20px;
     width: auto;
     height: auto;
   }
@@ -154,19 +152,18 @@ h1 {
     font-size: 9vw;
     }
   .label {
-    padding: 0.7vw 8vw 0.7vw 8vw;
-    font-size: 2.8vw;
+    padding: 0 30px;
+    font-size: 2.4vw;
     letter-spacing: 2px;
   }
   button {
     border-radius: 6px;
     border: 6px solid pink;
     padding: 6px 11px;
-    font-size: 10pt;
+    font-size: 10px;
     letter-spacing: 1.8px;
     }
   .button {
-    text-align: center;
     margin-top: 7vw;
     margin-bottom: 8vw;
   }
